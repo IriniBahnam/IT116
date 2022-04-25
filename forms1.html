@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Will be creating a form! -->
+<body>
+    
+
+    <section>
+        <h1>UserName and Password</h1>
+            <form action="/tacos"></form>
+
+                <p>
+                    <label for="username">Enter a Name:</label>
+                    <input id="username" type="text" placeholder="Enter Username" name="username">
+                </p>
+<!-- I am creating a username and password form -->
+                <p>
+                    <label for="password">Enter a password:</label>
+                    <input for="password" type="password" placeholder="Enter Password" name="password">
+                </p>
+<!-- I will also create a button for a sumbission -->
+                
+                <button>Sumbit</button>
+
+            </form>
+    </section>
+    <hr>
+    <!-- Now I will be making Queries! -->
+    <section>
+        <h1>Query Strings</h1>
+        <form action="https://www.reddit.com/search">
+        
+            <input type="text" name="q">
+            <button>Sumbit Reddit</button>
+
+        </form>
+<!-- I made a query for reddit -->
+        <form action="https://www.youtube.com/results?search_query=">
+        
+            <input type="text" name="q">
+            <button>Search YouTube</button>
+
+        </form>
+<!-- I also made a query for youtube -->
+        <form action="https://www.google.com/search?q=">
+
+            <input type="text" name="q">
+            <button>Google Search</button>
+
+
+
+        </form>
+<!-- Lastly, I made a query for google  -->
+    </section>
+    <hr>
+
+    <section>
+        <h1>Radio Buttons and Checkboxes</h1>
+            <form action="birds">
+<!-- Now i will be making a checkbox -->
+                <label for="agree">I agree to everything</label>
+                <input type="checkbox" name="agree_tos" id="agree">
+        
+
+        <p>
+<!-- I am not adding radio button! -->
+            <label for="s">Small</label>
+            <input type="radio" name="size" id="s" value="small">
+
+            <label for="m">Medium</label>
+            <input type="radio" name="size" id="m" value="medium">
+
+            <label for="l">Large</label>
+            <input type="radio" name="size" id="l" value="large">
+
+           
+        </p>
+<!-- I added 3 radio buttons above-->
+        <p>
+<!-- Now i will be addinga drop down menu of options -->
+            <label for="favColor">What is your favorite color?</label>
+
+            <select name="favorite" id="favColor">
+
+                <option value="Red">Red</option>
+
+                <option value="Green">Green</option>
+
+                <option value="Blue">Blue</option>
+
+            
+            </select>
+        </p>
+<!-- Above i added 3 color options -->
+        <p>
+<!-- Now im adding a scrollbar -->
+            <label for="scroll">Irini's scroll bar</label>
+
+            <input type="range" id="scroll" min="5" max="10" name="scrollbar">
+
+        </p>
+<!-- Im going to now create a text box -->
+        <p>
+            <label for="request">Type into this box</label>
+            <textarea id="request" name="reqs" rows="15" cols="15" placeholder="Type here"></textarea>
+
+
+        </p>
+
+        <button>Sumbit button</button>
+
+        </form>
+    </section>
+
+    <hr>
+<!-- I am now going to create a new section for error checking validations -->
+    <section>
+        <h2>Form validations</h2>
+        <form action="/bananas">
+<!-- I am going to input a required text -->
+            <label for="required1"></label>
+
+            <input type="text" name="funny" id="required1" required>
+<!-- I am now going to require a length to be set for the textbox -->
+
+            <label for="length"></label>
+
+            <input type="text" name="lengthy" id="length" minlength="5" maxlength="10">
+
+            <p>
+<!-- Now i am going to require an email to be inputted -->
+                <input type="email" required>
+
+            </p>
+
+            <button type="sumbit">Sumbit</button>
+
+        </form>
+
+    </section>
+</body>
+</html>
