@@ -1,0 +1,47 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <!-- I will be creating a form for my assighment -->
+    <body>
+        
+        <section>
+            <h1>Please fill out the form below</h1>
+                <form action="/food">
+<!-- I am creating a text to input the customers first name -->
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" placeholder="Enter First Name">
+                </p>
+<!-- I will now create a text to input the customers last name -->
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" placeholder="Enter Last Name">
+                </p>
+<!-- Now the cutomer has to pick which type of meat they would like -->
+                <p>
+                    <label for="food">Which food would you like to eat?</label>
+                    <select name="food" id="food">
+
+                        <option value="beef">Beef</option>
+
+                        <option value="chicken">Chicken</option>
+
+                        <option value="fish">Fish</option>
+                    </select>
+                </p>
+<!-- Now i am inputting a text are in case the customer has any allergies they would like to list -->
+                <p>
+                    <label for="request1">Do you have any allergies?</label>
+                    <textarea id="request1" name="request" rows="10" cols="10" placeholder="Type Here"></textarea>
+                </p>
+<!-- I am going to finish off this form with a sumbit button -->
+                <button>Sumbit</button>
+        </form>
+        </section>
+    </body>
+    </html>
