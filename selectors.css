@@ -1,0 +1,43 @@
+/* I am inputting a crimson color to both alabama and oklahoma */
+.alabama {
+    color: crimson; 
+}
+.oklahoma {
+    color: crimson;
+}
+/* I am inputting a green color to both notre dame and miami */
+.dame {
+    color: rgb(25, 139, 25); 
+}
+.miami {
+    color: rgb(25, 139, 25);
+}
+/* I am now going to give michigan a yellow color */
+.michigan {
+    color: #fbec5d
+}
+/* I am now going to give ohio state and southern california a red color */
+.ohio {
+    color: red;
+}
+.california {
+    color: red;
+}
+/* Now i am going to make texas  into a burnt orange color */
+.texas {
+    color: rgb(235, 147, 39);
+}
+/* Lastly, i am going to make nebraska red as well */
+.nebraska {
+    color: red;
+}
+/* I am making a green button for the YES I AGREE */
+#yes {
+    background-color: green;
+    color: white;
+}
+/* i am making a red button for the NO I DONT AGREE */
+#no {
+    background-color: red;
+    color: white; 
+}

@@ -1,0 +1,34 @@
+/* This selector is going to target everything on the page */
+/* * { 
+    color:pink;
+    background-color:green;
+
+}
+*/
+/* Now styling the body tag */
+body {
+    background-color:beige; 
+
+}
+/* Now styling the buttons */
+button {
+    font-size: 30px;
+
+}
+/* styling my h1 and h2 tag */
+h1, h2 {
+    color: crimson;
+}
+/* using the is tag to style */
+#signup {
+    background-color: pink;
+    color: blue;
+}
+/* now using class selector to style */
+.sec {
+    color: green;
+}
+/* Now im going to style a descendent selector */
+.post a {
+    color:hotpink;
+}
