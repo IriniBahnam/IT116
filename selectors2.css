@@ -1,0 +1,9 @@
+/* i am styling a descendent selector for the headers */
+header >a{
+    font-size: 30px;
+    color: lightblue;
+}
+/* I will now style my paragraphs as well  */
+#schools {
+    color: red;
+}
