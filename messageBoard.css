@@ -32,3 +32,37 @@ h1, h2 {
 .post a {
     color:hotpink;
 }
+/* I will now input a descendent selector */
+footer >a {
+    color: orange;
+}
+/* I am now going to give color to these attribute selectors */
+input[type="password"] {
+    color: orange;
+}
+
+input[type="text"] {
+    color: red;
+}
+/* Now i am specifying the google anchor tag */
+a[href*="google"] {
+    color: darkorange;
+}
+/* now i am inputting a pseudo-class */
+button:hover {
+    color:red;
+    background-color: blue;
+}
+/* This is also a pseudo-class for styling buttons */
+.post button:active {
+    background-color: green; 
+}
+/* I am now going to style a pseudo-element */
+h2::first-letter {
+    font-size:20px;
+    color: blue;
+}
+/* i will also style a paragraph tag with the pseudo-element */
+p::first-line {
+    color: green;
+}
